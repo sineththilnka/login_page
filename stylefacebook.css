@@ -1,0 +1,179 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color:#f0f0f5;
+    color:#1c1e21;
+    direction: ltr;
+    line-height: 1.34;
+    font-family: inherit;
+    font-size: 12px;
+}
+.body_contain{
+
+   display: flex;
+}
+.container{
+    margin-top: 150px;
+    position: relative;
+    font-family: Arial;
+    font-size: 30px;
+    margin-left: 150px;
+
+}
+#paragraph-container{
+    margin-left: 40px;
+    margin-top: 0px;
+}
+
+.container img{
+    padding: 0px;
+    margin: 0px;
+   
+}
+
+.login-form{
+  margin-top:10% ;
+  background-color: #f7f7f7;
+  position: fixed;
+
+  margin-left:60% ;
+  text-align: center;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+  border-color: grey;
+  
+}
+#form{
+    
+    padding:25px 45px 25px 25px;
+    background-color: #ffffff;
+    position: fixed;
+    border-radius: 5px;
+    width: 10cm;
+    
+}
+#text_1{
+    padding: 13px 13px 13px 13px;
+    border-radius: 7px;
+    width: 100%;
+    border-color: #e1e1f8;
+    font-size: 16px;
+}
+
+#text_1:hover{
+   
+    border-color: #1e1ead;
+   
+}
+#text_2{
+    padding: 13px 13px 13px 13px;
+    border-radius: 7px;
+    width: 100%;
+    border-color:#e1e1f8;
+    font-size: 16px;
+}
+
+#text_2:hover{
+   
+    border-color: #1e1ead;
+   
+}
+#login_button{
+    padding: 10px 20px 10px 20px;
+    width: 100%;
+    background-color: rgb(52, 52, 245);
+    color: #f9f0f0;
+    border-radius: 10px;
+    margin: 10px 10px 10px 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-color: #f9f0f0;
+    text-align: center;
+
+}
+
+#login_button:hover{
+    border-color: rgb(60, 60, 245);
+}
+#signup_button{
+    padding: 10px 20px 10px 20px;
+    width: 50%;
+    background-color: rgb(30, 196, 41);
+    color: #f9f0f0;
+    border-radius: 10px;
+    margin: 5px 5px 5px 5px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border-color: #f9f0f0;
+
+}
+
+#signup_button a{
+    text-decoration: none;
+    color: #f1f1fa;
+
+}
+
+#login_button a{
+    text-decoration: none;
+    color: #f1f1fa;
+
+}
+<!--login form & bottom sentence-->
+#forgot_link_1{
+    padding: 10px 10px 10px 10px;
+}
+#line-in-form{
+    color: #d1d1fb;
+}
+
+.under_sentense{
+    position: absolute;
+    top: 80%;
+    left: 65%;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.under_sentense a{
+    color: #000;
+    text-decoration: none;
+   
+}
+
+#forgot_link_1{
+
+   text-decoration: none;
+
+}
+
+@media (max-width:800px) {
+    .body_contain{
+         justify-content: center;
+       
+    }
+    .container{
+        margin-top: 0px;
+        margin-left: 5px;
+        position: fixed;
+        font-size: 18px;
+        text-align: center;
+    }
+    .login-form{
+        position: fixed;
+        margin-right: 750px;
+        margin-top: 200px;
+    }
+    .under_sentense{
+        padding: 0px 0px 0px 0px;
+        margin-right: 10px;
+        margin-top: 60px;
+       left: 20%;
+       
+        
+    }
+}
